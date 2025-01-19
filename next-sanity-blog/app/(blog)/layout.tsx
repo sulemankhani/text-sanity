@@ -18,10 +18,7 @@ import { sanityFetch } from "@/sanity/lib/fetch";
 import { settingsQuery } from "@/sanity/lib/queries";
 import { resolveOpenGraphImage } from "@/sanity/lib/utils";
 import Link from "next/link";
-<<<<<<< HEAD
 import CommentSec from "./commentsec/page";
-=======
->>>>>>> d6ecff1e871713588bfa7718b533df216a501e5a
 
 export async function generateMetadata(): Promise<Metadata> {
   const settings = await sanityFetch({
